@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contato</title>
+      <link rel="stylesheet" href="styles.css"s/>
+    </head>
+
+    <body>
+
+      <div>
+        <section id="divnav">
+          <nav class="navigation">
+            <img class="htmlimg" src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" align="left" width="50" border="0" title="Logo HTML">
+            <a href="paginaweb.html">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+          </nav>
+        </section>
+        
+        <header>
+            <h1>HTML</h1>
+            <h3>Linguagem de Marcação de Hipertexto</h3>
+        </header>
+        
+        <form action="obrigado.html" method="get">
+            <section style="text-align: center; justify-content: center;">
+                <label style="padding: 10px;">Nome: </label>
+                <input type="text" name="nome" required><br>
+                <br>
+                <label style="padding: 10px;">E-mail: </label>
+                <input type="email" name="email" required><br>
+                <br>
+                <label style="padding: 10px">Assunto: </label>
+                <select name="assunto">
+                    <option value="sugestao">Sugestão</option>
+                    <option value="critica">Crítica</option>
+                    <option value="elogio" selected>Elogio</option>
+                </select><br>
+                <br>
+                <label>Mensagem: </label>
+                <!--input type="text" name="mensagem"><br-->
+                <textarea name="mensagem" required></textarea><br>
+                <input type="checkbox" name="termo" 
+                value="Concordo com os Termos" required>
+                <label>
+                    Concordo com os Termos de Privacidade do Site
+                </label><br>
+                <input type="submit" value="Enviar Mensagem">
+            </section>
+        </form>
+        <hr>
+        </section>
+        <section style="display: flex; height: 150px; font-size: 0.9em;">
+          <section style="width: 25%; background-color: transparent;">
+            <b style="font-size: 1em;">Sobre</b>
+            <ul>
+              <li>Hospegadem</li>
+              <li>Loja Oficial</li>
+              <li>Politica de Privacidade</li>
+              <li>Fale Conosco</li>
+            </ul>
+          </section>
+
+          <section style="width: 25%; background-color: transparent;">
+            <b style="font-size: 1em;">Opções</b>
+            <ul>
+              <li>Teste de Velocidade</li>
+              <li>Conversor de Texto</li>
+              <li>Contador de Caracteres</li>
+              <li href="contato.html">Contato</li>
+            </ul>
+          </section>
+
+          <section style="width: 25%; background-color: transparent;">
+            <b style="font-size: 1em;">Categorias</b>
+            <ul>
+              <li>Design</li>
+              <li>Marketing</li>
+              <li>Programação</li>
+              <li>Tutoriais</li>
+            </ul>
+          </section>
+
+          <section style="width: 25%; background-color: transparent;">
+            <b style="font-size: 1em;">Contatos</b>
+            <ul>
+              <li>E-Books</li>
+              <li>20 Leis de UX</li>
+              <li>Introdução ao Bootstrap</li>
+              <li href="contato.html">Entrar em Contato</li>
+            </ul>
+          </section>
+
+        </section>
+      </div>
+    </body>
+
+</html>
